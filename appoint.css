@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body,
+html {
+    height: 100px;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+.background {
+    background-image: url('https://th.bing.com/th/id/OIP.8zJYriRG6Cboi60OoY2xpwHaEo?rs=1&pid=ImgDetMain');
+    background-size: cover;
+    background-position: center;
+    height: 34rem;
+    display: flex;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.appointment {
+    background-color: rgba(121, 193, 231, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 80%;
+}
+
+.appointment h2 {
+    text-align: center;
+}
+
+.appointment form {
+    display: flex;
+    flex-direction: column;
+}
+
+.appointment input {
+    padding: 8px;
+    border: 1px solid #767373;
+    border-radius: 5px;
+}
+
+.save {
+    padding: 10px;
+    background-color: #1a2b1a23;
+    color: rgb(184, 176, 176);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
